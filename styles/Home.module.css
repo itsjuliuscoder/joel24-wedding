@@ -43,7 +43,7 @@
   color: #000000;
 }
 .imageWrapper {
-  background-image: url("../public/images/col1.jpg");
+  background-image: url("/images/col1.jpg");
   background-position: center;
   background-size: cover;
   min-height: 120vh;
@@ -454,7 +454,7 @@ h3.titler2 {
 }
 
 .col2 {
-  background-image: url("../public/images/col1.jpg");
+  background-image: url("/images/col1.jpg");
   background-position: center;
   background-size: cover;
   min-height: 100px;
@@ -1003,7 +1003,7 @@ h3.titler2 {
 }
 
 .banner_row {
-  background-image: linear-gradient(rgba(5, 4, 4, 0.354), rgba(0, 0, 0, 0.753)), url("../public/images/banner.jpg");
+  background-image: linear-gradient(rgba(5, 4, 4, 0.354), rgba(0, 0, 0, 0.753)), url("/images/banner.jpg");
   background-position: center;
   background-size: cover;
   padding: 1rem;
