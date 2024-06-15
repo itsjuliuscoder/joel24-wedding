@@ -52,8 +52,8 @@ export default function Home() {
                   <Nav className={`${styles.navLinks} text-center`}>
                     <Nav.Link href="/" className={styles.active}>Home</Nav.Link>
                     <Nav.Link href="/about">About the Couple</Nav.Link>
-                    <Nav.Link href="/events">Wedding Details</Nav.Link>
-                    <Nav.Link href="/contact">Gifts Catalog</Nav.Link>
+                    <Nav.Link href="/details">Wedding Details</Nav.Link>
+                    <Nav.Link href="/gifts">Gifts Catalog</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
@@ -90,7 +90,7 @@ export default function Home() {
           <div className={styles.footer__styles}>
             <Container>
                 <div className={styles.footer__inner}>
-                    <p>&copy; JOEL24 Wedding. All rights reserved. Website by<a href="" target="_blank"><b>Julius</b></a></p>
+                    <p>&copy; JOEL24 Wedding. All rights reserved. Website by <a href="https://github.com/itsjuliuscoder" target="_blank"><b>Julius</b></a></p>
                 </div>
             </Container>
           </div>

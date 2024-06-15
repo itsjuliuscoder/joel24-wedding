@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>About the Couple - John & Elizabeth - JOEl24</title>
+        <title>Gifts Catalog - John & Elizabeth - JOEl24</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.bodyContainer}>
@@ -23,16 +23,16 @@ export default function About() {
               <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                 <Nav className={`${styles.navLinks} text-center`}>
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/about" className={styles.active}>About the Couple</Nav.Link>
+                    <Nav.Link href="/about" >About the Couple</Nav.Link>
                     <Nav.Link href="/details">Wedding Details</Nav.Link>
-                    <Nav.Link href="/gifts">Gifts Catalog</Nav.Link>
+                    <Nav.Link href="/gifts" className={styles.active}>Gifts Catalog</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
           </Navbar>
         </div>
           <div className={styles.about__banner}>
-              <h3>About JOEL24</h3>
+              <h3>Gifts Catalog</h3>
               <p></p>
           </div> 
           <div className={styles.body__container}>
@@ -42,7 +42,7 @@ export default function About() {
                     
                   </Col>
                   <Col xs={12} md={6}>
-
+                    
                   </Col>
                 </Row>
             </Container>

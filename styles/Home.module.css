@@ -138,64 +138,71 @@
   color: #FCFCFC;
 }
 
-.benefits_col h4 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 42px;
-  /* or 287% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  /* Text color/White */
-  color: #FCFCFC;
+
+
+.about__banner {
+  background-image: linear-gradient(rgba(5, 4, 4, 0.693), rgba(0, 0, 0, 0.753)), url("/images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 6em !important;
+  width: 100%;
+  min-height: 30vh;
+  margin-top: 20px;
 }
 
-.confabRow {
-  width: 100%;
-  position: relative;
-  margin: 8em auto;
+.about__banner h3 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 36px;
+  color: #fff;
 }
-.confabRowText {
+
+.body__container {
   width: 100%;
-  position: relative;
+  padding: 3em;
   margin: auto;
-}
-h3.titler {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 175%;
-  text-align: center;
-}
-h3.titler2 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 175%;
-  text-align: center;
-}
-.para {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 35px;
-  line-height: 175%;
-  text-align: center;
-  color: #5E1EA3;
+  position: relative;
+  min-height: 600px;
 }
 
-.para2 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 175%;
+.body__container h2 {
   text-align: center;
-  color: #5E1EA3;
+  font-size: 42px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+
+.body__container p {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color: #c300ff; /* Bootstrap primary color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.cardText h5 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #2a232c; /* Bootstrap secondary color */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btnDetails {
+  font-size: 1rem;
+  background-color: #500367; /* Bootstrap secondary color */
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+}
+
+.btnDetails:hover {
+  font-size: 1rem;
+  background-color: #23012e; /* Bootstrap secondary color */
+  font-family: 'Quicksand', sans-serif;
+  border: none;
 }
 
 .confabRowText p {
@@ -217,6 +224,7 @@ h3.titler2 {
   position: relative;
   margin: 4em auto;
 }
+
 .pastEventTitle {
   width: 100%;
   margin: auto;
