@@ -46,9 +46,9 @@ export default function About() {
                         <Card.Body>
                         <Card.Title className={styles.cardTitle}>Engagement Ceremony</Card.Title>
                         <Card.Text className={styles.cardText}>
-                            <h5><FaCalendarDay /> <b>12th July, 2024</b></h5>
-                            <h5><FaClock /> <b>3 PM</b></h5>
-                            <h5><FaMapMarkerAlt /> <b>Novatel Hotel, Chevy View Estate, Lekki, Lagos.</b></h5>
+                            <p><FaCalendarDay /> <b>12th July, 2024</b></p>
+                            <p><FaClock /> <b>3 PM</b></p>
+                            <p><FaMapMarkerAlt /> <b>16B Chief Collins Uchidiuno Street, Lekki Phase 1, Lagos.</b></p>
                         </Card.Text>
                         <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
                         </Card.Body>
@@ -60,9 +60,9 @@ export default function About() {
                         <Card.Body>
                         <Card.Title className={styles.cardTitle}>Wedding Ceremony</Card.Title>
                         <Card.Text className={styles.cardText}>
-                            <h5><FaCalendarDay /> <b>13th July, 2024</b></h5>
-                            <h5><FaClock /> <b>10 AM</b></h5>
-                            <h5><FaMapMarkerAlt /> <b>Deeper Life Bible Church, Opp. Shoprite Exit gate, VI, Lagos.</b></h5>
+                            <p><FaCalendarDay /> <b>13th July, 2024</b></p>
+                            <p><FaClock /> <b>10 AM</b></p>
+                            <p><FaMapMarkerAlt /> <b>Deeper Life Bible Church, Opp. Shoprite Exit gate, VI, Lagos.</b></p>
                         </Card.Text>
                         <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
                         </Card.Body>
@@ -74,9 +74,9 @@ export default function About() {
                         <Card.Body>
                         <Card.Title className={styles.cardTitle}>Reception</Card.Title>
                         <Card.Text className={styles.cardText}>
-                            <h5><FaCalendarDay /> <b>13th July, 2024</b></h5>
-                            <h5><FaClock /> <b>Immediately after the Wedding Ceremony</b></h5>
-                            <h5><FaMapMarkerAlt /> <b>Novatel Hotel, Chevy View Estate, Lekki, Lagos.</b></h5>
+                            <p><FaCalendarDay /> <b>13th July, 2024</b></p>
+                            <p><FaClock /> <b>Immediately after the Wedding Ceremony</b></p>
+                            <p><FaMapMarkerAlt /> <b>Novatel Hotel, Chevy View Estate, Lekki, Lagos.</b></p>
                         </Card.Text>
                         <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
                         </Card.Body>
