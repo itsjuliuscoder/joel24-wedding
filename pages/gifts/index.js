@@ -23,7 +23,7 @@ const gifts = [
     { id: 10, name: 'Air Conditional', image: '/images/gifts/ac515k.jpg', price: '515,000 NGN', giftId: 'JOEL210' },
     { id: 11, name: 'Water Dispenser', image: '/images/gifts/dispenser183k.jpg', price: '183,000 NGN', giftId: 'JOEL211' },
     { id: 12, name: 'Electric Kettle', image: '/images/gifts/electric-kettle7800.jpg', price: '7,800 NGN', giftId: 'JOEL212' },
-    { id: 13, name: 'Table Lamp', image: '/images/gifts/lamp-125k.jpg', price: '125,000 NGN', giftId: 'JOEL213' },
+    { id: 13, name: 'Table Lamp', image: '/images/gifts/lamp-125k.jpg', price: '12,500 NGN', giftId: 'JOEL213' },
     { id: 14, name: 'Iron Stand', image: '/images/gifts/iron-stand49k.jpg', price: '49,000 NGN', giftId: 'JOEL214' },
     { id: 15, name: 'Sound System', image: '/images/gifts/sound-system-43k.jpg', price: '43,000 NGN', giftId: 'JOEL2015' },
     { id: 16, name: 'Shoe Rack', image: '/images/gifts/shoe-rack14k.jpg', price: '35,000 NGN', giftId: 'JOEL216' },
