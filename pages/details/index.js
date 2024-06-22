@@ -65,7 +65,7 @@ export default function About() {
                         <Card.Title className={styles.cardTitle}>Wedding Ceremony</Card.Title>
                         <Card.Text className={styles.cardText}>
                             <p><FaCalendarDay /> <b>13th July, 2024</b></p>
-                            <p><FaClock /> <b>10 AM</b></p>
+                            <p><FaClock /> <b>9 AM</b></p>
                             <p><FaMapMarkerAlt /> <b>Deeper Life Bible Church, Opp. Shoprite Exit gate, VI, Lagos.</b></p>
                         </Card.Text>
                         <Link href="https://maps.app.goo.gl/RGt7Y8qUytmaNGtm6" passHref legacyBehavior>
