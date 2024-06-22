@@ -24,6 +24,23 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.colText {
+  width: 85%;
+  position: relative;
+  margin: 6em auto;
+  text-align: left !important;
+}
+.colText h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-style: capitalize !important;
+}
+
+.colText h1 {
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+}
+
 .rower {
   width: 50%;
   position: relative;
@@ -180,6 +197,56 @@
 .cardTitle {
   font-size: 1.5rem;
   color: #c300ff; /* Bootstrap primary color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+.cardPara1 {
+  font-size: 1rem;
+  color: #340a41; /* Bootstrap primary color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.cardPara2 {
+  font-size: 1.2rem;
+  color: #340a41; /* Bootstrap primary color */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.cardPara3 {
+  font-size: 1rem;
+  color: #340a41; /* Bootstrap primary color */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  margin-top: 9px;
+}
+
+.cardPara4 {
+  font-size: 1rem;
+  color: #340a41; /* Bootstrap primary color */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.cardTitle1 {
+  font-size: 1.8rem;
+  color: #c300ff; /* Bootstrap primary color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.cardTitle2 {
+  font-size: 1.3rem;
+  color: #7c3491; /* Bootstrap primary color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.cardPara {
+  font-size: 1rem;
+  color: #977d0a; /* Bootstrap primary color */
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
 }
