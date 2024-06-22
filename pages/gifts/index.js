@@ -138,7 +138,7 @@ export default function About() {
                           <h3 className={styles.cardPara2}><strong>Account Number: </strong>2121189165</h3>
                           {/* <h3 className={styles.cardPara2}><strong>Transaction Description: </strong>United Bank for Africa</h3> */}
 
-                          <p className={styles.cardPara4}><i><strong>NB: </strong>Make sure to include the <b>Gift ID</b> in the transaction description, to enable us identify the gift you transferred money for.</i></p>
+                          <p className={styles.cardPara4}><i><strong>NB: </strong>Make sure to include the <b>Gift ID</b> in the transaction description, to enable us identify the gift you transferred money for. Thanks for sharing in our joy.</i></p>
                     </Modal.Body>
                     <Modal.Footer>
                     <Button variant="secondary" onClick={() => setShowModal(false)}>
