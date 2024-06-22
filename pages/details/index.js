@@ -50,7 +50,11 @@ export default function About() {
                             <p><FaClock /> <b>3 PM</b></p>
                             <p><FaMapMarkerAlt /> <b>16B Chief Collins Uchidiuno Street, Lekki Phase 1, Lagos.</b></p>
                         </Card.Text>
-                        <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                        <Link href="https://maps.app.goo.gl/w96gsYJmu4CFjttTA" passHref legacyBehavior>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                            </a>
+                        </Link>
                         </Card.Body>
                     </Card>
                   </Col>
@@ -64,7 +68,11 @@ export default function About() {
                             <p><FaClock /> <b>10 AM</b></p>
                             <p><FaMapMarkerAlt /> <b>Deeper Life Bible Church, Opp. Shoprite Exit gate, VI, Lagos.</b></p>
                         </Card.Text>
-                        <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                        <Link href="https://maps.app.goo.gl/RGt7Y8qUytmaNGtm6" passHref legacyBehavior>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                            </a>
+                        </Link>
                         </Card.Body>
                     </Card>
                   </Col>
@@ -78,7 +86,11 @@ export default function About() {
                             <p><FaClock /> <b>Immediately after the Wedding Ceremony</b></p>
                             <p><FaMapMarkerAlt /> <b>Novatel Hotel, Chevy View Estate, Lekki, Lagos.</b></p>
                         </Card.Text>
-                        <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                        <Link href="https://maps.app.goo.gl/AxDqAmGG2ykB8caB7" passHref legacyBehavior>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <Button variant="primary" className={styles.btnDetails}>Click for Direction</Button>
+                            </a>
+                        </Link>
                         </Card.Body>
                     </Card>
                   </Col>

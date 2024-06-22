@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/Home.module.css';
 import { Button, Col, Container, Row, Form, Navbar, Nav } from "react-bootstrap";
 import logoImg from "../../public/confab-ft.png";
+import groomImg from "../../public/images/groom.png";
+import brideImg from "../../public/images/bride.png";
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsFillCircleFill } from 'react-icons/bs';
@@ -39,10 +41,36 @@ export default function About() {
             <Container>
                 <Row>
                   <Col xs={12} md={6}>
-                    
+                      <div className={styles.colText}>
+                        <h5>Bride</h5>
+                        <h1>Elizabeth Uche MADUKA</h1>
+                      </div>
                   </Col>
                   <Col xs={12} md={6}>
-
+                      <Image 
+                          src="/images/bride.png" 
+                          alt="bride"
+                          layout="responsive"
+                          width={850}
+                          height={550}
+                      />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={12} md={6}>
+                          <Image 
+                              src="/images/groom.png" 
+                              alt="groom"
+                              layout="responsive"
+                              width={850}
+                              height={550}
+                          />
+                  </Col>
+                  <Col xs={12} md={6}>
+                      <div className={styles.colText}>
+                        <h5>Groom</h5>
+                        <h1>John Omotayo OMOTOLA</h1>
+                      </div>
                   </Col>
                 </Row>
             </Container>
