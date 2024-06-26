@@ -49,8 +49,8 @@ const gifts = [
     { id: 36, name: 'Standing Fan', image: '/images/gifts/standing-fan-26k.jpg', price: '26,000 NGN', giftId: 'JOEL236' },
     { id: 37, name: 'Plate Rack', image: '/images/gifts/platerack27k.jpg', price: '27,000 NGN', giftId: 'JOEL237' },
     { id: 38, name: 'Mixer', image: '/images/gifts/mixer.jpg', price: '25,000 NGN', giftId: 'JOEL238' },
-    { id: 39, name: 'Swivel Chair', image: '/images/gifts/swivel-office-chair.jpg', price: '75,000 NGN', giftId: 'JOEL237' },
-    { id: 40, name: 'Oven', image: '/images/gifts/oven70k.jpg', price: '70,000 NGN', giftId: 'JOEL238' },
+    { id: 39, name: 'Swivel Chair', image: '/images/gifts/swivel-office-chair.jpg', price: '75,000 NGN', giftId: 'JOEL239' },
+    { id: 40, name: 'Oven', image: '/images/gifts/oven70k.jpg', price: '70,000 NGN', giftId: 'JOEL240' },
     
 ];
 
